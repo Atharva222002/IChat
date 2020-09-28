@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IChat</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="icon"><img src="icons8-chat-48.png" alt="#"></div>
+        <div class="name">Welcome to IChat Application</div>
+    </nav>
+    <div class="container">
+        <!-- <span class="msg right">Hii I am Atharva</span>
+        <span class="msg left">Hii I am Aditya</span> -->
+    </div>
+    <!-- <form id="form">
+        <input type="text" id="text">
+        <input type="submit" name="submit">
+    </form> -->
+    <div class="form">
+        <form id="form">
+            <div id="form" class="input-group">
+                <input type="text" id="text" class="form-control" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <button type="submit" value="submit" class="btn btn-success"><img src="icons8-sent-26.png"
+                        alt="#"></button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+
+</html>
